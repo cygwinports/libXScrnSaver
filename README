@@ -1,0 +1,94 @@
+libXScrnSaver
+------------------------------------------
+X.Org XScreenSaver library
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-1
+  libXext6-1.0.4-1
+
+Build requirements:
+(besides corresponding devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.1-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+  scrnsaverproto-1.1.0-1
+  xorg-util-macros-1.1.6-1
+  xproto-7.0.13-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://xorg.freedesktop.org/releases/individual/lib/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libXScrnSaver-1.1.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libXScrnSaver-1.1.2-X.cygport all
+
+This will create:
+  /usr/src/libXScrnSaver-1.1.2-X-src.tar.bz2
+  /usr/src/libXScrnSaver-1.1.2-X.tar.bz2
+  /usr/src/libXss-devel-1.1.2-X.tar.bz2
+  /usr/src/libXss1-1.1.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libXss1)
+  /usr/bin/cygXss-1.dll
+  /usr/share/doc/libXScrnSaver-1.1.2/COPYING
+  /usr/share/doc/libXScrnSaver-1.1.2/ChangeLog
+
+(libXss-devel)
+  /usr/lib/libXss.dll.a
+  /usr/lib/libXss.la
+  /usr/lib/pkgconfig/xscrnsaver.pc
+  /usr/share/man/man3/XScreenSaverAllocInfo.3.gz
+  /usr/share/man/man3/XScreenSaverGetRegistered.3.gz
+  /usr/share/man/man3/XScreenSaverQueryExtension.3.gz
+  /usr/share/man/man3/XScreenSaverQueryInfo.3.gz
+  /usr/share/man/man3/XScreenSaverQueryVersion.3.gz
+  /usr/share/man/man3/XScreenSaverRegister.3.gz
+  /usr/share/man/man3/XScreenSaverSelectInput.3.gz
+  /usr/share/man/man3/XScreenSaverSetAttributes.3.gz
+  /usr/share/man/man3/XScreenSaverSuspend.3.gz
+  /usr/share/man/man3/XScreenSaverUnregister.3.gz
+  /usr/share/man/man3/XScreenSaverUnsetAttributes.3.gz
+  /usr/share/man/man3/Xss.3.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.1.3-1 -----
+X11R7.4 version bump.
+
+----- version 1.1.2-1 -----
+X11R7.3 version bump.
+
+----- version 1.1.1-1 -----
+X11R7.2 version bump.
+
+----- version 1.1.0-1 -----
+X11R7.1 version bump.
+
+----- version 1.0.1-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
