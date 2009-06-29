@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libXss1 libX11-devel libXext-devel scrnsaverproto
+requires: libXss1 libX11-devel libXext-devel scrnsaverproto
 external-source: libXScrnSaver
 sdesc: "X.Org XScreenSaver library (development)"
 ldesc: "X.Org XScreenSaver library"
