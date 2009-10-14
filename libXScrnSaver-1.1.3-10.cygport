@@ -1,8 +1,0 @@
-inherit xorg
-
-abi=1
-PKG_NAMES="${PN} libXss${abi} libXss-devel"
-PKG_HINTS="setup runtime devel"
-PKG_CONTENTS[0]=	# empty
-PKG_CONTENTS[1]="usr/bin/*-${abi}.dll usr/share/"
-PKG_CONTENTS[2]='usr/lib/'
