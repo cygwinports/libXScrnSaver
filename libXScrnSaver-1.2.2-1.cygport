@@ -1,6 +1,6 @@
 inherit xorg
 
-PKG_NAMES="${PN} libXss1 libXss-devel"
-PKG_HINTS="setup runtime devel"
+PKG_NAMES="libXss1 libXss-devel"
+PKG_HINTS="runtime devel"
 libXss1_CONTENTS="usr/bin/*-1.dll usr/share/doc/"
 libXss_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/man3/'
