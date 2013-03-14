@@ -1,6 +1,12 @@
 inherit xorg
 
+NAME="libXScrnSaver"
+VERSION=1.2.2
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org XScreenSaver library"
+DESCRIPTION="X.Org XScreenSaver library"
+
 PKG_NAMES="libXss1 libXss-devel"
-PKG_HINTS="runtime devel"
 libXss1_CONTENTS="usr/bin/*-1.dll usr/share/doc/"
 libXss_devel_CONTENTS='usr/include/ usr/lib/ usr/share/man/man3/'

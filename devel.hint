@@ -1,5 +1,0 @@
-category: X11
-requires: libXss1 libX11-devel libXext-devel scrnsaverproto xproto
-external-source: libXScrnSaver
-sdesc: "X.Org XScreenSaver library (development)"
-ldesc: "X.Org XScreenSaver library"
