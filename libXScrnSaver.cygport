@@ -3,7 +3,7 @@ inherit xorg
 NAME="libXScrnSaver"
 VERSION=1.2.2
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org XScreenSaver library"
 DESCRIPTION="X.Org XScreenSaver library"
 
